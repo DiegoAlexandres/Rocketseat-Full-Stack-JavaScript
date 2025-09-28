@@ -1,0 +1,24 @@
+h1 {
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+/* Descendent */
+article p {
+    color: rgb(113, 8, 250);
+}
+
+/* List */
+span, mark {
+    color: green;
+}
+
+/* Next Sibling */
+p + p {
+    color: red;
+}
+
+/* Child */
+aside > ul {
+    margin-top: 60px;
+}
